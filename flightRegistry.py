@@ -16,6 +16,8 @@ class Flight():
     return self.capacity - len(self.passengers)
 
 flight = Flight(4) #flight seat capacity is 4
+print("There is 4 seat capacity in the flight.")
+print("Please note all passengers will be registered on a first-come-first-serve basis.\n")
 
 #asking user for names of flight attendents
 people = []
@@ -23,6 +25,7 @@ people = [item for item in input("Enter the names (separated by spaces): ").spli
 #print(people)
 
 #messages to user
+print("\n")
 for person in people:
   if flight.add_passenger(person):
     print(f"Added {person} to flight successfully.\n")
