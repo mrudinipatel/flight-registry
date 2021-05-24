@@ -1,4 +1,4 @@
-#Mrudini Patel 24/05/2021
+#Created by Mrudini Patel 24/05/2021
 
 class Flight():
   def __init__ (self, capacity):
