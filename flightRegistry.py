@@ -20,7 +20,7 @@ flight = Flight(4) #flight seat capacity is 4
 #asking user for names of flight attendents
 people = []
 people = [item for item in input("Enter the names (separated by spaces): ").split()]
-print(people)
+#print(people)
 
 #messages to user
 for person in people:
